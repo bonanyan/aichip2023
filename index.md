@@ -46,6 +46,11 @@ title: 嵌入式系统编程与实践
 
 - 开发板型号：_CanMV CM-1_
 
+## 主要参考书：
+
+- Introduction to Embedded Systems: A Cyber-Physical Systems Approach
+  - [https://ptolemy.berkeley.edu/books/leeseshia/](https://ptolemy.berkeley.edu/books/leeseshia/)
+
 ## 成绩考核方式：
 
 - 实践主讲（45%）
