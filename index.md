@@ -1,60 +1,47 @@
 ---
 layout: default
-title: 嵌入式系统编程与实践
+title: 人工智能芯片：设计与实践
 ---
 
-## 课程信息
+## COURSE INFORMATION
 
-- 教室:	昌平新校区-114
-- 时间:	6:40pm-9:30pm，周三（1～16周）
-- 课程教授：燕博南 (主页：[bonany.cc](https://bonany.cc))
-- Email:	bonanyan AT pku.edu.cn  
+- Lecture Location: 昌平新校区-114
+- Lecture time:	9:00am-11:50am，周三（1～16周）
+- Instructor: Dr. Bonan Yan 燕博南 (site: [bonany.cc](https://bonany.cc))
+- Email:	bonanyan AT pku.edu.cn
 
-## 教学计划
+## AGENDA
 
-| *周* | *日期*   | *类别*     | *内容*                            | *主讲人* | *备注*                                                                 |
-| ---- | -------- | ---------- | --------------------------------- | -------- | ---------------------------------------------------------------------- |
-| 1    | 23/9/13  | ⓵理论     | 课程介绍 & 嵌入式系统开发概论     | 燕博南   | [slides1](/assets/lec/L1_Intro.pdf), [slides2](/assets/lec/L2_CPS.pdf) |
-| 2    | 23/9/20  | ⓵理论     | 嵌入式系统组成                    | 燕博南   |                                                                        |
-| 3    | 23/9/27  | ⓵理论     | 人工智能算法相关                  | 燕博南   |                                                                        |
-| 4    | 23/10/4  | 无课堂活动 | 欢度假期:smiley:                  |          |                                                                        |
-| 5    | 23/10/11 | ⓶实践     | K210入门-1                        | _待定_   |                                                                        |
-| 6    | 23/10/18 | ⓶实践     | K210入门-2                        | _待定_   |                                                                        |
-| 7    | 23/10/25 | ⓵理论     | 信息物理系统方法-1                | 燕博南   |                                                                        |
-| 8    | 23/11/1  | ⓶实践     | K210外设编程-1                    | _待定_   |                                                                        |
-| 9    | 23/11/7  | ⓶实践     | K210外设编程-2                    | _待定_   |                                                                        |
-| 10   | 23/11/15 | ⓵理论     | 信息物理系统方法-2                | 燕博南   |                                                                        |
-| 11   | 23/11/22 | ⓶实践     | K210人工智能编程-1                | _待定_   |                                                                        |
-| 12   | 23/11/29 | ⓶实践     | K210人工智能编程-2                | _待定_   |                                                                        |
-| 13   | 23/12/6  | ⓵理论     | 创意项目开题 & 信息物理系统方法-3 | 燕博南   |                                                                        |
-| 14   | 23/12/13 | ⓵理论     | 信息物理系统方法-4                | 燕博南   |                                                                        |
-| 15   | 23/12/20 | ⓵理论     | 课程总结 + 创意项目赶进度         | 燕博南   |                                                                        |
-| 16   | 23/12/27 | ⓷创意     | 项目展示+互评打分                 | @所有人  |                                                                        |
-| 17   | 24/1/3   | 无课堂活动 |                                   |          |                                                                        |
-| 18   | 24/1/10  | 无课堂活动 | 课程项目书面报告+代码，提交截止   |          |                                                                        |
+| Week | Date     | Lecture                                                                | Reference | Assignment |
+| ---- | -------- | :--------------------------------------------------------------------- | :-------- | ---------- |
+| 1    | 23/9/13  | Class Introduction[\[slides\]](/assets/lec/Lec1_intro.pdf)             |           |            |
+| 2    | 23/9/20  | Advanced HDL basics & Timing[\[slides\]](/assets/lec/Lec2_verilog.pdf) |           |            |
+| 3    | 23/9/27  | Logic Synthesis - I                                                    |           |            |
+| 4    | 23/10/4  | No Lecture                                                             |           |            |
+| 5    | 23/10/11 | Logic Synthesis - II                                                   |           |            |
+| 6    | 23/10/18 | Logic Synthesis In-Class Lab                                           |           |            |
+| 7    | 23/10/25 | Memory Technologies                                                    |           |            |
+| 8    | 23/11/1  | Data Formats & Circuits                                                |           |            |
+| 9    | 23/11/7  | CPU Architecture - I                                                   |           |            |
+| 10   | 23/11/15 | CPU Architecture - II                                                  |           |            |
+| 11   | 23/11/22 | Instrumentalism Intro of DNN - I                                       |           |            |
+| 12   | 23/11/29 | Instrumentalism Intro of DNN - II                                      |           |            |
+| 13   | 23/12/6  | Progress Report - I                                                    |           |            |
+| 14   | 23/12/13 | Systolic Array                                                         |           |            |
+| 15   | 23/12/20 | Latest Hardware Programming Languages                                  |           |            |
+| 16   | 23/12/27 | Final Presentation - Progress Report II                                |           |            |
+| 17   | 24/1/3   | [Final Exam Week] No Lecture                                           |           |            |
+
+## USEFUL TOOLS
+
+a. [Wavedrom](https://wavedrom.com): waveform drawing tool
+b. [iVerilog](https://github.com/steveicarus/iverilog): Verilog compilers/simulator
+c. [GTKWave](https://gtkwave.sourceforge.net): waveform viewer
+d. [PISLib](https://bonany.gitlab.io/pis/): behavioral models of processing-in-memory and memory
 
 
-## 课程资源
+## GRADE BREAKDOWN
 
-### 开发板资源  
-
-- [开发者资料](/assets/doc/K210开发资料给客户_20221008.7z)
-- 开发板型号: _PaddlePi_ 
-- 例程：[https://github.com/kendryte/PaddlePi](https://github.com/kendryte/PaddlePi)
-
-### 进阶开发板
-
-- 开发板型号：_CanMV CM-1_
-
-## 主要参考书：
-
-- Introduction to Embedded Systems: A Cyber-Physical Systems Approach
-  - [https://ptolemy.berkeley.edu/books/leeseshia/](https://ptolemy.berkeley.edu/books/leeseshia/)
-
-## 成绩考核方式：
-
-- 实践主讲（45%）
-- 课程项目随堂报告展示（40%）
-  - 实践随堂程序：10% × 3
-  - 论文分享：10%
-- 课程项目书面报告（15%）
+a. Assignments: 20%
+b. Presentation: 40%
+c. Final Paper : 40%
