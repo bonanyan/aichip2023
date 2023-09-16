@@ -34,14 +34,14 @@ title: 人工智能芯片：设计与实践
 
 ## USEFUL TOOLS
 
-a. [Wavedrom](https://wavedrom.com): waveform drawing tool
-b. [iVerilog](https://github.com/steveicarus/iverilog): Verilog compilers/simulator
-c. [GTKWave](https://gtkwave.sourceforge.net): waveform viewer
-d. [PISLib](https://bonany.gitlab.io/pis/): behavioral models of processing-in-memory and memory
+- [Wavedrom](https://wavedrom.com): waveform drawing tool
+- [iVerilog](https://github.com/steveicarus/iverilog): Verilog compilers/simulator
+- [GTKWave](https://gtkwave.sourceforge.net): waveform viewer
+- [PISLib](https://bonany.gitlab.io/pis/): behavioral models of processing-in-memory and memory
 
 
 ## GRADE BREAKDOWN
 
-a. Assignments: 20%
-b. Presentation: 40%
-c. Final Paper : 40%
+- Assignments: 20%
+- Presentation: 40%
+- Final Paper : 40%
