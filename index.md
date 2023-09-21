@@ -13,24 +13,24 @@ title: 人工智能与芯片设计
 
 ## AGENDA
 
-| Week | Date  | Lecture                                                                 | Reference | Assignment |
-| ---- | ----- | :---------------------------------------------------------------------- | :-------- | ---------- |
-| 1    | 9/14  | Class Introduction [\[slides\]](/assets/lec/Lec1_intro.pdf)             |           |            |
-| 2    | 9/21  | Advanced HDL basics & Timing [\[slides\]](/assets/lec/Lec2_verilog.pdf) |           |            |
-| 3    | 9/28  | Logic Synthesis - I                                                     |           |            |
-| 4    | 10/5  | Happy holiday! 😆 No Lecture                                           |           |            |
-| 5    | 10/12 | Logic Synthesis - II                                                    |           |            |
-| 6    | 10/19 | Logic Synthesis In-Class Lab                                            |           |            |
-| 7    | 10/26 | Memory Technologies                                                     |           |            |
-| 8    | 11/2  | Data Formats & Circuits                                                 |           |            |
-| 9    | 11/9  | CPU Architecture - I                                                    |           |            |
-| 10   | 11/16 | CPU Architecture - II                                                   |           |            |
-| 11   | 11/23 | Instrumentalism Intro of DNN - I                                        |           |            |
-| 12   | 11/30 | Instrumentalism Intro of DNN - II                                       |           |            |
-| 13   | 12/7  | Progress Report - I                                                     |           |            |
-| 14   | 12/14 | Systolic Array                                                          |           |            |
-| 15   | 12/21 | Latest Hardware Programming Languages                                   |           |            |
-| 16   | 12/28 | Final Presentation - Progress Report II                                 |           |            |
+| Week | Date  | Lecture                                                                    | Reference | Assignment |
+| ---- | ----- | :------------------------------------------------------------------------- | :-------- | ---------- |
+| 1    | 9/14  | Class Introduction & Why AI ASIC? [\[slides\]](/assets/lec/Lec1_intro.pdf) |           |            |
+| 2    | 9/21  | Introduction to Verilog HDL [\[slides\]](/assets/lec/Lec2_verilog.pdf)     |           |            |
+| 3    | 9/28  | Introduction to Verilog HDL-II                                             |           |            |
+| 4    | 10/5  | Happy holiday! 😆 No Lecture                                              |           |            |
+| 5    | 10/12 | Single-Core CPU                                                            |           |            |
+| 6    | 10/19 | 🌟Lab 1: Design a GPU!                                                    |           |            |
+| 7    | 10/26 | Continue Lab 1                                                             |           |            |
+| 8    | 11/2  | Systolic Array-I                                                           |           |            |
+| 9    | 11/9  | Systolic Array-II                                                          |           |            |
+| 10   | 11/16 | 🌟Lab 2: Probabilistic Model Chip                                         |           |            |
+| 11   | 11/23 | Continue Lab 2                                                             |           |            |
+| 12   | 11/30 | Introduction Chip Design Flow                                              |           |            |
+| 13   | 12/7  | Introduction Chip Design Flow-II                                           |           |            |
+| 14   | 12/14 | 🌟Lab 3 AI for Chip                                                       |           |            |
+| 15   | 12/21 | Continue Lab 3                                                             |           |            |
+| 16   | 12/28 | Paper Sharing Presentation                                                 |           |            |
 
 ## USEFUL TOOLS
 
@@ -44,4 +44,7 @@ title: 人工智能与芯片设计
 
 - Assignments: 20%
 - Presentation: 40%
+  - Includes:
+  - Lab Program 10%$\times$3
+  - Paper sharing presentation 10%
 - Final Paper : 40%
