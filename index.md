@@ -45,6 +45,6 @@ title: 人工智能与芯片设计
 - Assignments: 20%
 - Presentation: 40%
   - Includes:
-  - Lab Program 10%$\times$3
+  - Lab Program 10%\*3
   - Paper sharing presentation 10%
 - Final Paper : 40%
