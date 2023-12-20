@@ -24,8 +24,8 @@ title: 人工智能与芯片设计
 | 7    | 10/26 | Assembly Tutorial 1               |                                                                                                                                                                |                                                    |
 | 8    | 11/2  | GPU Array-I                       |                                                                                                                                                                |                                                    |
 | 9    | 11/9  | Systolic Array-II                 |                                                                                                                                                                |                                                    |
-| 10   | 11/16 | Design Flow - 1                   | [\[slides\]](/assets/lec/Lec6_DesignFlow.pdf)  [\[Lab1\]](/assets/assignment/Lab1.pdf) [\[Unified_multiport_RAM\]](/assets/lec/unified_multiport_ram.tar.gz)                                                                        |                                                    |
-| 11   | 11/23 | Design Flow -2                    |                                                                                                                                                                |                                                    |
+| 10   | 11/16 | Design Flow - 1                   | [\[slides\]](/assets/lec/Lec6_DesignFlow.pdf)  [\[Lab1\]](/assets/assignment/Lab1.pdf) [\[Unified_multiport_RAM\]](/assets/lec/unified_multiport_ram.tar.gz)   |                                                    |
+| 11   | 11/23 | Design Flow -2 [\[slides\]](/assets/lec/Lec7_DesignFlow_ii.pdf)                   |                                                                                                                                                                |                                                    |
 | 12   | 11/30 | Lab-1 Practice                    |                                                                                                                                                                |                                                    |
 | 13   | 12/7  | AI for Chips: Introduction        |                                                                                                                                                                |                                                    |
 | 14   | 12/14 | 🌟Lab 2 AI for Chip              |                                                                                                                                                                |                                                    |
@@ -45,6 +45,6 @@ title: 人工智能与芯片设计
 - Assignments: 20%
 - Presentation: 40%
   - Includes:
-  - Lab Program 10%\*3
+  - Lab Program 30%
   - Paper sharing presentation 10%
-- Final Paper : 40%
+- Final Report : 40%
